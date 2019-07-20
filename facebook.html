@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Facebook Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.1">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background-image: url(sunset.jpg);
+			background-size: cover;
+		}
+		.logo{
+			color: white;
+			padding-left: 80px;
+		}
+		.main{
+			display: flex;
+			background-color: rgba(5,58,120,0.9);
+			padding-left: 15px;
+		}
+		.email{
+			float:left;			
+		}
+		.pass{
+			margin-left: 10px;
+			float:left;
+		}
+		.email input[type="email"]{
+			height: 20px;
+			border: solid black 1px;
+		}
+		.pass input[type="password"]{
+			height: 20px;
+			border: solid black 1px;
+		}
+		.email-pass{
+			color:white;
+			margin-top: 15px;
+			margin-left: 560px;
+		}
+		.name{
+			margin-top: 80px;
+			margin-left: 800px;
+			font-weight: bolder;
+		}
+		.name input[type="text"]{
+			padding-left: 5px;
+			width: 159px;
+			height: 35px;
+			border-radius: 6px;
+		}
+		.name input[type="password"]{
+			padding-left: 5px;
+			width: 330px;
+			height: 35px;
+			border-radius: 6px;			
+		}
+		.name input[type="submit"]{
+			background-color: mediumseagreen;
+			width: 140px;
+			height: 40px;
+			font-size: 20px;
+			font-weight: bolder;
+			border-radius: 7px;		
+		}
+		.name h1{
+			color: white;
+		}
+		form p a{
+        	text-decoration: none;
+        	color: darkblue;
+        }
+        form p{
+        	font-size: 13px;
+        	color: black;
+        }
+         #page{
+        	font-size: 16px;
+        }
+		button{
+			color: white;
+			background-color: dodgerblue;
+			/*border: auto;*/
+			border-color: rgb(5,58,120);
+			border-radius: 2px;
+			padding-left: 8px;
+			padding: 2.5px;
+		}
+		footer{
+            background-color: white;
+            padding: 10px;
+            margin: 0;
+            color: black;
+        }
+        .language a{
+        	text-decoration: none;
+        	padding: 8px;
+        	font-size: 13px;
+        	/*font-weight: bolder;*/
+        }
+        .language p{
+        	padding-left: 155px;
+        }
+        .refrence a{
+        	text-decoration: none;
+        	padding: 10px;
+        	font-size: 13px;
+        	/*font-weight: bolder;*/
+        }
+        .refrence p{
+        	padding-left: 145px;
+        }
+
+        
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="logo">
+		<h1>Facebook</h1>
+	</div>
+	<div class="email-pass">
+	<div class="email">
+		<label for="email">Email</label><br>
+		<input type="email" id="email" name="email">
+	</div>	
+	<div class="pass">
+		<label for="pass">Password</label><br>
+		<input type="password" id="pass" name="password">
+		<button>Log In</button><br>
+		<a href="#" style="color:white; text-decoration: none;">Forgot Password</a>
+	</div>
+	</div>
+</div>
+<div class="name">
+	<h1>Login Facebook</h1>
+	<form>
+		<input type="text" placeholder="First name" name="firstname">
+		<input type="text" placeholder="Last name" name="lasttname"><br><br>
+		<input type="password" placeholder="Enter Password" name="Password"><br><br>
+		<input type="password" placeholder="Conferm Password" name="Conferm Password"><br><br><br>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female
+		<input type="radio">Custom<br><br>
+		<p>By clicking Sign Up, you agree to our <a href="#">Terms,<br>Data Policy and Cookie Policy</a>. You may receive SMS<br>notifications from us and can opt out at any time.</p><br>
+		<input type="submit" value="SignUp"><br><br>
+		<p id="page"><a href="#">Create a Page</a> for a celebrity, band or business.</p><br>
+	</form>
+</div>
+<footer>
+	<div class="language">
+		<p>
+			   English (UK)
+			<a href="#">हिन्दी</a>
+			<a href="#">ਪੰਜਾਬੀ</a>
+			<a href="#">اردو </a>
+			<a href="#">தமிழ்</a>
+			<a href="#">বাংলা</a>
+			<a href="#">मराठी </a>
+			<a href="#">తెలుగు</a>
+			<a href="#">ગુજરાતી</a>
+			<a href="#">ಕನ್ನಡ</a>
+			<a href="#">മലയാളം</a><br>
+		</p>
+    </div>
+	<hr>
+	<div class="refrence">
+		<p>
+			<a href="#">SignUp</a>
+			<a href="#">LogIn</a>
+			<a href="#">Messenger</a>
+			<a href="#">Facebook Lite</a>
+			<a href="#">Watch</a>
+			<a href="#">People</a>
+			<a href="#">Profiles</a>
+			<a href="#">Pages</a>
+			<a href="#">Page categories</a>
+			<a href="#">Events</a>
+			<a href="#">Places</a>
+			<a href="#">Games</a>
+			<a href="#">Locations</a><br>
+			<a href="#">Marketplace</a>
+			<a href="#">Groups</a>
+			<a href="#">Instagram</a>
+			<a href="#">Local</a>
+			<a href="#">Fundraisers</a>
+			<a href="#">Services</a>
+			<a href="#">About</a>
+			<a href="#">Create ad</a>
+			<a href="#">Create Page</a>
+			<a href="#">Developers</a>
+			<a href="https://www.accenture.com/in-en/careers">Careers</a>
+			<a href="#">Privacy</a><br>
+			<a href="#">Cookies</a>
+			<a href="#">AdChoices</a>
+			<a href="#">Terms</a>
+			<a href="#">Account security</a>
+			<a href="#">Login help</a>
+			<a href="#">Help</a>
+			<a href="#">Settings</a>
+			<a href="#">Activity log</a><hr>
+		</p>
+	</div>         
+	<p style="text-align: left; padding-left: 154px;">Facebook © 2019</p>
+</footer>
+</body>
+</html>
